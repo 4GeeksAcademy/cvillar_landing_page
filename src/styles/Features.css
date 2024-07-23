@@ -19,6 +19,23 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: calc(25% - 20px);
     box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido se distribuya y el botón esté en la parte inferior */
+    
+}
+
+.card-image {
+    width: 100%;
+    height: 200px; /* Altura fija para la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionar */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-content {
+    flex-grow: 1; /* Permite que el contenido crezca y empuje el botón hacia el fondo */
 }
 
 .card h4 {

@@ -6,6 +6,10 @@
     padding: 20px;
     background-color: #282c34;
     color: white;
+    position: fixed; /* Asegura que el header esté siempre en la parte superior */
+    width: 100%; /* Asegura que el header ocupe todo el ancho */
+    top: 0; /* Asegura que esté en la parte superior */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
 
 .logo {

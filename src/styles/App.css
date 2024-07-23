@@ -13,10 +13,9 @@ code {
 .Home {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; /* Asegura que el contenedor principal ocupe al menos el 100% del alto de la vista */
 }
 
 .footer {
-    margin-top: auto;
+    margin-top: auto; /* Empuja el footer al fondo del contenedor flex */
 }
-
